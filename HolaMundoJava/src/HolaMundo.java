@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  *
  * @author Salma
@@ -5,6 +7,7 @@
 public class HolaMundo {
     public static void main(String args[]){
         System.out.println("Hola mundo c:");
+        
         
         // definicion de variable
         int miVariableEntera = 10;
@@ -20,6 +23,7 @@ public class HolaMundo {
         miVariableCadena = "Adios";
         System.out.println(miVariableCadena);
         
+        
         // inferencia de tipos
         var miVariableEntera2 = 15;
         System.out.println(miVariableEntera2);
@@ -27,6 +31,7 @@ public class HolaMundo {
         var miVariableCadena2 = "Adios";
         System.out.println(miVariableCadena2);
 
+        
         // concatenacion
         var usuario = "Juan";
         var titulo = "Ingeniero";
@@ -49,5 +54,17 @@ public class HolaMundo {
         System.out.println("Comilla simple: \'" + nombre + "\'");
         System.out.println("Comilla doble: \"" + nombre + "\"");
 
+        
+        // Scanner
+        Scanner lee = new Scanner(System.in);
+        var user = "";
+        var title = "";
+
+        System.out.print("Escribe tu nombre: ");
+        user = lee.nextLine();
+        System.out.println("usuario = " + user);
+        System.out.print("Escribe tu titulo: ");
+        title = lee.nextLine();
+        System.out.println("titulo = " + title);
     }
 }
