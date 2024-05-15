@@ -39,5 +39,15 @@ public class HolaMundo {
         System.out.println(i + j + usuario); // 7Juan -> suma y concatena el nombre
         System.out.println(usuario + i + j); // Juan34 -> concatena toda la cadena
         System.out.println(usuario + (i + j)); // Juan7 -> concatena la cadena y el resultado de la suma
+
+
+        // caracteres especiales
+        String nombre = "Karla";
+        System.out.println("Nueva linea: \n" + nombre);
+        System.out.println("Tabulador: \t" + nombre);
+        System.out.println("Retroceso: \'" + nombre + "\'");
+        System.out.println("Comilla simple: \'" + nombre + "\'");
+        System.out.println("Comilla doble: \"" + nombre + "\"");
+
     }
 }
