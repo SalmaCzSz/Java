@@ -41,5 +41,19 @@ public class TiposPrimitivos {
         System.out.println("Valor double: " + numDouble);
         System.out.println("Valor minimo double: " + Double.MIN_VALUE);
         System.out.println("Valor maximo double: " + Double.MAX_VALUE);
+
+
+
+        /*
+         * Inferencia de tipos
+         * */
+        var numeroEntero = 10;
+        System.out.println("numeroEntero = " + numeroEntero);
+        
+        var numeroDouble = 10.0;
+        System.out.println("numeroDouble = " + numDouble);
+        
+        var numeroFloat = 10.0F;
+        System.out.println("numeroFloat = " + numeroFloat);
     }
 }
