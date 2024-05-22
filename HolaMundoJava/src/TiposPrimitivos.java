@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class TiposPrimitivos {
     public static void main(String args[]){
         /*
@@ -110,5 +112,22 @@ public class TiposPrimitivos {
         } else {
             System.out.println("Eres menor de edad");
         }
+        
+        
+        
+        /*
+        * Conversión de tipos
+        * */
+        var anios = Integer.parseInt("20");
+        System.out.println("anios = " + anios); 
+        System.out.println("(anios + 1) = " + (anios + 1));
+        
+        var valorPI = Double.parseDouble("3.1416");
+        System.out.println("valorPI = " + valorPI);
+        
+        var consola = new Scanner(System.in);
+        System.out.print("Proporciona tu edad: ");
+        edad = Integer.parseInt(consola.nextLine());
+        System.out.println("edad = " + edad);
     }
 }
