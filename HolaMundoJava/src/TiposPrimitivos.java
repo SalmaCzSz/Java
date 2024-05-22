@@ -55,5 +55,37 @@ public class TiposPrimitivos {
         
         var numeroFloat = 10.0F;
         System.out.println("numeroFloat = " + numeroFloat);
+
+
+
+        /*
+         * char
+         * */
+        char miCaracter = 'a';
+        System.out.println("miCaracter = " + miCaracter);
+
+        char varChar = '\u0021'; // indicamos que vamos a usar un valor unicode
+        System.out.println("varChar = " + varChar); // salida = !
+        
+        char varCharDecimal = 33; // representa el valor deimal asociado al caracter
+        System.out.println("varCharDecimal = " + varCharDecimal); // salida = !
+
+        char varCharSimbolo = '!';
+        System.out.println("varCharSimbolo1 = " + varCharSimbolo); // salida = !
+
+        var varChar1 = '\u0021';
+        System.out.println("varChar1 = " + varChar1); // salida = !
+
+        var varCharDecimal1 = 33;
+        System.out.println("varCharDecimal1 = " + varCharDecimal1); // salida = 33
+
+        var varCharSimbolo1 = '!';
+        System.out.println("varCharSimbolo1 = " + varCharSimbolo1); // saida = !
+        
+        int variableEnteraSimbolo = '!'; // toma el codigo decimal asociado al simbolo
+        System.out.println("variableEnteraSimbolo = " + variableEnteraSimbolo); // salida = 33
+        
+        int letra = 'a';
+        System.out.println("letra = " + letra); // salida = 97
     }
 }
