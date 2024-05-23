@@ -129,5 +129,15 @@ public class TiposPrimitivos {
         System.out.print("Proporciona tu edad: ");
         edad = Integer.parseInt(consola.nextLine());
         System.out.println("edad = " + edad);
+
+        var edadTexto = String.valueOf(10);
+        System.out.println("edadTexto = " + edadTexto);
+
+        var caracter = "hola".charAt(1); // charAt proporciona un indice (inicia en 0)
+        System.out.println("caracter = " + caracter);
+
+        System.out.print("Proporciona un caracter: ");
+        caracter = consola.nextLine().charAt(0);
+        System.out.println("caracter = " + caracter);
     }
 }
