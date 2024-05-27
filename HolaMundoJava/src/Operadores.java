@@ -24,5 +24,30 @@ public class Operadores {
         else
             System.out.println("Numero impar");
 
+
+
+        /*
+         * Operadores de asignacion
+         * */
+        int c = a + 5 - b;
+        System.out.println("Resultado 'c' = " + c);
+
+        a += 1;
+        System.out.println("Resultado 'a' = " + a);
+
+        a += 3;
+        System.out.println("Resultado 'a' = " + a);
+
+        a -= 2;
+        System.out.println("Resultado 'a' = " + a);
+
+        b *= 4;
+        System.out.println("Resultado 'b' = " + b);
+
+        b /= 2;
+        System.out.println("Resultado 'b' = " + b);
+
+        b %= 5;
+        System.out.println("Resultado 'b' = " + b);
     }
 }
