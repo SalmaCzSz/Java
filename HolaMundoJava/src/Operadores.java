@@ -49,5 +49,41 @@ public class Operadores {
 
         b %= 5;
         System.out.println("Resultado 'b' = " + b);
+
+
+
+        /*
+         * Operadores unarios
+         * */
+        var d = 3;
+        var e = -d;
+        System.out.println("'d' = " + d);
+        System.out.println("'e' = " + e);
+
+        var f = true;
+        var g = !f;
+        System.out.println("'f' = " + f);
+        System.out.println("'g' = " + g);
+
+        var h = 3; // incremento
+        var i = ++h; // preincremento -> primero se incrementa la variable y luego se usa su valor
+        var j = 5;
+        var k = j++; // preincremento -> primero se usa su valor y luego se incrementa
+        System.out.println("'h' = " + h);
+        System.out.println("'i' = " + i);
+        System.out.println("'j' = " + j);
+        System.out.println("'k' = " + k);
+
+        var l = 2;
+        var m = --i; // predecremento -> primero se decrementa la variable y luego se usa su valor
+        var n = 4;
+        var o = n--; // postdecremento -> primero se usa su valor y luego se decrementa
+        System.out.println("'l' = " + l);
+        System.out.println("'m' = " + m);
+        System.out.println("'n' = " + n);
+        System.out.println("'o' = " + o);
+
+
+
     }
 }
