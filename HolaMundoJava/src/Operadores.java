@@ -82,5 +82,24 @@ public class Operadores {
         System.out.println("'m' = " + m);
         System.out.println("'n' = " + n);
         System.out.println("'o' = " + o);
+
+
+
+        /*
+         * Operadores de igualdad
+         * */
+        var p = 3;
+        var q = 2;
+        var r = (p == q);
+        var s = (p != q);
+        System.out.println("'r' = " + r);
+        System.out.println("'s' = " + s);
+
+        var cadena1 = "Hola";
+        var cadena2 = "Adios";
+        var igualdadObjeto = (cadena1 == cadena2); // compara referencias de objetos
+        var igualdadContenido = cadena1.equals(cadena2); // compara contenido
+        System.out.println("cadenas = " + igualdadObjeto);
+        System.out.println("cadenas = " + igualdadContenido);
     }
 }
