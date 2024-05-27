@@ -82,8 +82,5 @@ public class Operadores {
         System.out.println("'m' = " + m);
         System.out.println("'n' = " + n);
         System.out.println("'o' = " + o);
-
-
-
     }
 }
