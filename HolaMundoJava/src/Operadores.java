@@ -109,6 +109,7 @@ public class Operadores {
          * */
         var isMayor = a > b;
         System.out.println("isMayor = " + isMayor);
+
         if(a % 2 == 0){
             System.out.println("Es numero par");
         } else {
@@ -117,10 +118,34 @@ public class Operadores {
 
         var edad = 30;
         var adulto = 18;
+
         if( edad >= adulto){
             System.out.println("Es adulto");
         } else {
             System.out.println("No es adulto");
         }
+
+
+
+        /*
+         * Operadores condicionales
+         * */
+        var num = 10;
+        var valorMinimo = 0;
+        var valorMaximo = 10;
+        var comparacion = a >= 0 && a <=10; // and -> '&&'
+
+        if(comparacion)
+            System.out.println("Dentro de rango");
+        else
+            System.out.println("Fuera de rango");
+
+        var vacaciones = false;
+        var diaDescanso = false;
+
+        if(vacaciones || diaDescanso) // or -> '||'
+            System.out.println("Padre puede asistir al juego del hijo");
+        else
+            System.out.println("El padre está ocupado");
     }
 }
