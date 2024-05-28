@@ -101,5 +101,26 @@ public class Operadores {
         var igualdadContenido = cadena1.equals(cadena2); // compara contenido
         System.out.println("cadenas = " + igualdadObjeto);
         System.out.println("cadenas = " + igualdadContenido);
+
+
+
+        /*
+         * Operadores relacionales
+         * */
+        var isMayor = a > b;
+        System.out.println("isMayor = " + isMayor);
+        if(a % 2 == 0){
+            System.out.println("Es numero par");
+        } else {
+            System.out.println("Es numero impar");
+        }
+
+        var edad = 30;
+        var adulto = 18;
+        if( edad >= adulto){
+            System.out.println("Es adulto");
+        } else {
+            System.out.println("No es adulto");
+        }
     }
 }
