@@ -9,7 +9,7 @@ public class Rectangulo {
         int perimetro;
 
         System.out.print("Proporciona el alto: ");
-        alto = lee.nextInt();
+        alto = Integer.parseInt(lee.nextLine());
         System.out.print("Proporciona el ancho: ");
         ancho = lee.nextInt();
 
