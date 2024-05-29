@@ -147,5 +147,17 @@ public class Operadores {
             System.out.println("Padre puede asistir al juego del hijo");
         else
             System.out.println("El padre está ocupado");
+
+
+
+        /*
+         * Operador ternario || if corto
+         * */
+        var resultados = (2 > 3) ? "Verdadero" : "Falso";
+        System.out.println("resultados = " + resultados);
+
+        var numeros = 8;
+        resultados = (numeros % 2 == 0) ? "Numero par" : "Numero impar";
+        System.out.println("resultados = " + resultados);
     }
 }
