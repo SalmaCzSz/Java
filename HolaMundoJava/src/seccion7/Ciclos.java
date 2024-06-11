@@ -11,5 +11,17 @@ public class Ciclos {
             System.out.println("contador = " + contador);
             contador++;
         }
+
+
+
+        /*
+         * Do While
+         * */
+        contador = 0;
+
+        do{
+            System.out.println("contador = " + contador);
+            contador++;
+        } while (contador < 3);
     }
 }
