@@ -23,5 +23,14 @@ public class Ciclos {
             System.out.println("contador = " + contador);
             contador++;
         } while (contador < 3);
+
+
+
+        /*
+         * For
+         * */
+        for(var i = 0; i < 3; i ++){
+            System.out.println("i = " + i);
+        }
     }
 }
