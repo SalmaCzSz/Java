@@ -29,9 +29,10 @@ public class Ciclos {
         /*
          * For
          * */
+        inicio: //label
         for(var i = 0; i < 3; i ++){
             if(i % 2 != 0){
-                continue; // va a la siguiente iteracion
+                continue inicio; // va a la siguiente iteracion
             }
             System.out.println("i = " + i); // imprime pares
 
