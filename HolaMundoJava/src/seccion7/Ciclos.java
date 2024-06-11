@@ -30,7 +30,17 @@ public class Ciclos {
          * For
          * */
         for(var i = 0; i < 3; i ++){
-            System.out.println("i = " + i);
+            if(i % 2 != 0){
+                continue; // va a la siguiente iteracion
+            }
+            System.out.println("i = " + i); // imprime pares
+
+            /*
+            if(i % 2 == 0){
+                System.out.println("i = " + i);
+                break; // termina el ciclo
+            }
+             */
         }
     }
 }
