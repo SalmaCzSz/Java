@@ -10,8 +10,12 @@ public class Aritmetica {
     /*
     * Metodos
     */
-    public void sumar(){// void no regresa informacion
+    public void sumar(){ // void no regresa informacion
        int resultado = a + b;
        System.out.println("resultado = " + resultado);
+    }
+    
+    public int suma(){ // regresa información
+        return a + b;
     }
 }
