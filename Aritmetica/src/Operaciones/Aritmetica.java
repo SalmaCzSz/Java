@@ -20,8 +20,8 @@ public class Aritmetica {
     }
     
     public int suma(int arg1, int arg2){
-        a = arg1;
-        b = arg2;
+        this.a = arg1;
+        this.b = arg2;
         
         return a + b;
     }
