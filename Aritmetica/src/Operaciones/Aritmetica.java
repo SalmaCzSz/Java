@@ -6,7 +6,28 @@ public class Aritmetica {
     */
     int a;
     int b;
-    
+
+    /*
+     * Constructor vacio
+     */
+    public Aritmetica(){
+        System.out.println("Ejecutando constructor vacio");
+    }
+
+
+
+    /*
+     * Constructor con argumentos
+     */
+    public Aritmetica(int a, int b){
+        this.a = a;
+        this.b = b;
+
+        System.out.println("Ejecutando constructor con argumentos");
+    }
+
+
+
     /*
     * Metodos
     */
