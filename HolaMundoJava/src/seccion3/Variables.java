@@ -1,5 +1,6 @@
 package seccion3;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 /**
@@ -65,5 +66,22 @@ public class Variables {
         System.out.print("Escribe tu titulo: ");
         title = lee.nextLine();
         System.out.println("titulo = " + title);
+        
+        
+        
+        // Constantes
+        System.out.println("* * * Constantes en Java * * *");
+        final var DIAS_SEMANA = 7;
+        System.out.println("DIAS_sEMANA = " + DIAS_SEMANA);
+        //DIAS_SEMANA = 8;
+        
+        final var PI = 3.1416;
+        System.out.println("Math.PI = " + Math.PI);
+        
+        final var MENSAJE_BIENVENIDA = "Bienvenid@ a la Universidad Java";
+        System.out.println("MENSAJE_BIENVENIDA = " + MENSAJE_BIENVENIDA);
+        
+        final var MINUTOS_POR_SEGUNDO = 60;
+        System.out.println("MINUTOS_POR_SEGUNDO = " + MINUTOS_POR_SEGUNDO);
     }
 }
