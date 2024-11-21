@@ -1,4 +1,4 @@
-package seccion8;
+package seccion3;
 
 public class Persona {
     /*
