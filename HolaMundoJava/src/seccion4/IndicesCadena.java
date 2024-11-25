@@ -6,7 +6,7 @@ public class IndicesCadena {
         var cadena1 = "hola mundo";
         
         // recuperar el primer caracter
-        var primerCaracter = cadena1.charAt();
+        var primerCaracter = cadena1.charAt(0);
         System.out.println("primerCaracter = " + primerCaracter);
         
         // recuperar el ultimo caracter
