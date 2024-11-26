@@ -1,4 +1,4 @@
-package seccion5;
+package seccion6;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package seccion5;
+package seccion6;
 
 public class PrecedenciaOperadores {
     public static void main(String args[]){

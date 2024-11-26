@@ -1,9 +1,9 @@
-package seccion5;
+package seccion6;
 
 public class Operadores {
     public static void main(String args[]){
         /*
-        * seccion5.Operadores Aritmeticos
+        * seccion6.Operadores Aritmeticos
         * */
         int a = 3,
             b = 2;
@@ -29,7 +29,7 @@ public class Operadores {
 
 
         /*
-         * seccion5.Operadores de asignacion
+         * seccion6.Operadores de asignacion
          * */
         int c = a + 5 - b;
         System.out.println("Resultado 'c' = " + c);
@@ -55,7 +55,7 @@ public class Operadores {
 
 
         /*
-         * seccion5.Operadores unarios
+         * seccion6.Operadores unarios
          * */
         var d = 3;
         var e = -d;
@@ -88,7 +88,7 @@ public class Operadores {
 
 
         /*
-         * seccion5.Operadores de igualdad
+         * seccion6.Operadores de igualdad
          * */
         var p = 3;
         var q = 2;
@@ -107,7 +107,7 @@ public class Operadores {
 
 
         /*
-         * seccion5.Operadores relacionales
+         * seccion6.Operadores relacionales
          * */
         var isMayor = a > b;
         System.out.println("isMayor = " + isMayor);
@@ -130,7 +130,7 @@ public class Operadores {
 
 
         /*
-         * seccion5.Operadores condicionales
+         * seccion6.Operadores condicionales
          * */
         var num = 10;
         var valorMinimo = 0;

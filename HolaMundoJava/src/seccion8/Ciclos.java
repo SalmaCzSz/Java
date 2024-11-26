@@ -1,4 +1,4 @@
-package seccion7;
+package seccion8;
 
 public class Ciclos {
     public static void main(String args[]) {

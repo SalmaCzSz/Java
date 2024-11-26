@@ -1,4 +1,4 @@
-package seccion6;
+package seccion7;
 
 public class Estaciones {
     public static void main(String args[]) {
