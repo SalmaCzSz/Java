@@ -1,7 +1,7 @@
 package seccion12.persona;
 
 public class Persona {
-    static int contadorPersonas = 0;
+    private static int contadorPersonas = 0;
     private String nombre;
     private String apellido;
     private int idPersona;
@@ -20,6 +20,10 @@ public class Persona {
 
     public int getIdPersona() {
         return this.idPersona;
+    }
+
+    public static int getContadorPersonas(){
+        return Persona.contadorPersonas;
     }
 
     public String getNombre() {
