@@ -4,10 +4,13 @@ public class Aritmetica {
     int operando1;
     int operando2;
 
+    public Aritmetica(){
+    }
+
     public Aritmetica(int op1, int op2){
         System.out.println("Ejecutando constructor");
-        operando1 = op1;
-        operando2 = op2;
+        this.operando1 = op1;
+        this.operando2 = op2;
     }
 
     void sumar(){
@@ -35,5 +38,16 @@ public class Aritmetica {
         //aritmetica2.operando2 = 16;
         aritmetica2.sumar();
         aritmetica2.restar();
+
+        System.out.println();
+
+        var aritmetica3 = new Aritmetica();
+        aritmetica3.sumar();
+        aritmetica3.restar();
+
+        aritmetica3.operando1 = 8;
+        aritmetica3.operando2 = 12;
+        aritmetica3.sumar();
+        aritmetica3.restar();
     }
 }
