@@ -1,28 +1,6 @@
-package seccion12;
+package seccion12.aritmetica;
 
-public class Aritmetica {
-    int operando1;
-    int operando2;
-
-    public Aritmetica(){
-    }
-
-    public Aritmetica(int op1, int op2){
-        System.out.println("Ejecutando constructor");
-        this.operando1 = op1;
-        this.operando2 = op2;
-    }
-
-    void sumar(){
-        var resultado = operando1 + operando2;
-        System.out.println("resultado suma = " + resultado);
-    }
-
-    void restar(){
-        var resultado = operando1 - operando2;
-        System.out.println("resultado resta = " + resultado);
-    }
-
+public class PruebaAritmetica {
     public static void main(String[] args) {
         System.out.println("* * * Ejemplo aritmetica * * *");
         var aritmetica1 = new Aritmetica(5, 7);
